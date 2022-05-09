@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage - Template Christina</title>
+    <link rel="icon" href="./images/favicon.ico" type="image/ico">
+
+    <!-- PREFETCH  -->
+    <link href="https://cdn.jsdelivr.net" rel="dns-prefetch" crossorigin="anonymous">
+    <link href="https://code.jquery.com" rel="dns-prefetch" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com" rel="dns-prefetch">
+    <link href=" https://unpkg.com" rel="dns-prefetch">
+    <!-- PREFETCH  -->
+
+    <!-- FONTS  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" type="text/css"/></noscript>
+    <!-- FONTS  -->
+
+    <!-- BOOTSTRAP  -->
+    <link rel="preload" as="style" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preload" as="style" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!-- BOOTSTRAP  -->
+
+    <!-- AOS LIBRARY  -->
+    <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- AOS LIBRARY  -->
+
+    <!-- FANCYBOX JS  -->
+    <link rel="preload" as="script" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- FANCYBOX JS  -->
+
+    <!-- OWL CAROUSEL  -->
+    <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- OWL CAROUSEL  -->
+
+    <!-- MY STYLE -->
+    <link rel="preload" as="style" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- MY STYLE -->
+
+    <!-- SCRIPTS PRELOAD  -->
+    <!-- JQUERY  -->
+    <link rel="preload" as="script" href="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+    <!-- JQUERY  -->
+
+    <!-- BOOTSTRAP  -->
+    <link rel="preload" as="script" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    <!-- BOOTSTRAP  -->
+
+    <!-- AOS LIBRARY  -->
+    <link rel="preload" as="script" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- AOS LIBRARY  -->
+
+    <!-- OWL CAROUSEL  -->
+    <link rel="preload" as="script" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- OWL CAROUSEL  -->
+
+    <!-- MY SCRIPT  -->
+    <link rel="preload" as="script" href="./scripts/scripts.js">
+    <!-- MY SCRIPT  -->
+    <!-- SCRIPTS PRELOAD  -->
+
+</head>
+<body>
+    
+
+    <!-- START OF HEADER  -->
+    <header class="fixed-top">
+        <div class="header-top px-3 px-xl-0 py-2">
+            <div class="col-12 col-xl-11 col-xxl-10 m-auto d-flex justify-content-between align-items-center">
+                <div class="contact-header pe-3">
+                    <ul class="list-unstyled d-inline-flex flex-wrap">
+                        <li><a href="#" aria-label="telephone" target="_blank"><i class="bi bi-envelope me-2"></i>(+30) 6946492914</a></li>
+                        <li><a href="#" aria-label="email" target="_blank"><i class="bi bi-telephone me-2"></i> hello@revitup.direct</a></li>
+                    </ul>
+                </div>
+                <div class="social-header">
+                    <ul class="list-unstyled d-inline-flex">
+                        <li><a href="#" aria-label="facebook" target="_blank"><i class="bi bi-facebook"></i></a></li>
+                        <li><a href="#" aria-label="instagram" target="_blank"><i class="bi bi-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="main-header d-flex align-items-center justify-content-center px-3 px-xl-0">
+            <div class="col-12 col-xl-11 col-xxl-10 m-auto d-flex justify-content-between align-items-center">
+                <div class="header-logo py-2 py-lg-3">
+                    <a href="index.html" aria-label="logo">
+                        <img src="./images/revitup-logo.jpg" alt="" class="img-fluid">
+                    </a>
+                   
+                </div>
+                <div class="main-menu d-none d-lg-inline-block">
+                    <ul class="list-unstyled d-inline-flex flex-wrap">
+                        <li><a href="#" aria-label="link">Hotel</a></li>
+                        <li><a href="#" aria-label="link">Accommodation</a></li>
+                        <li><a href="#" aria-label="link">Gastronomy</a></li>
+                        <li><a href="#" aria-label="link">Experiences</a></li>
+                        <li><a href="#" aria-label="link">Offers</a></li>
+                        <li><a href="#" aria-label="link">Contact</a></li>
+                        <li><a href="#" aria-label="link">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="bookHeader">
+                    <a href="#" aria-label="book button">BOOK NOW <i class="bi bi-arrow-right ms-1"></i></a>
+                </div>
+                <div class="mobile-menu d-lg-none">
+                    <div class="menu">
+                        <div class="menu-open">
+                            <i class="bi bi-list"></i>
+                        </div>
+                    </div>
+                
+                    <div class="menu_overlay">
+                        <div class="close-menu">
+                            <i class="bi bi-x"></i>
+                        </div>
+                        <div class="side side1">
+                        <ul class="list">
+                            <li><a href="#" aria-label="link">Hotel</a></li>
+                            <li><a href="#" aria-label="link">Accommodation</a></li>
+                            <li><a href="#" aria-label="link">Gastronomy</a></li>
+                            <li><a href="#" aria-label="link">Experiences</a></li>
+                            <li><a href="#" aria-label="link">Offers</a></li>
+                            <li><a href="#" aria-label="link">Contact</a></li>
+                            <li><a href="#" aria-label="link">Gallery</a></li>
+                        </ul>
+                        </div>
+                    </div>
+                    <div class="side side2 flex-column">
+                        <div class="contact-details px-5">
+                            <h2>Find Us</h2>
+                            <ul class="list-unstyled">
+                                <li><a href="#" aria-label="link"><i class="bi bi-telephone me-2"></i> +30 6946492914</a></li>
+                                <li><a href="#" aria-label="link"><i class="bi bi-envelope me-2"></i>hello@revitup.direct</a></li>
+                                <li><a href="#" aria-label="link"><i class="bi bi-geo-alt me-2"></i>Κωνσταντινουπόλεως 12, Ηράκλειο 713 04</a></li>
+                            </ul>
+                        </div>
+                        <div class="social-details px-5 mt-5">
+                            <h2>Follow Us</h2>
+                            <ul class="list-unstyled d-inline-flex">
+                                <li><a href="#" aria-label="facebook" target="_blank"><i class="bi bi-facebook"></i></a></li>
+                                <li><a href="#" aria-label="instagram" target="_blank"><i class="bi bi-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- END OF HEADER  -->
+
+    <!-- START OF GENERIC CAROUSEL  -->
+    <div id="genericCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#genericCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#genericCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#genericCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#genericCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="background: url('./images/image-1.jpg') center center/ cover;">
+                <div class="contentOverSlider text-center">
+                    <div class="title">
+                        Life Is Beautiful
+                    </div>
+                   <p>Unlock to enjoy the view of her</p>
+                </div>
+            </div>
+            <div class="carousel-item" style="background: url('./images/image-2.jpg') no-repeat center center/ cover;">
+                <div class="contentOverSlider text-center">
+                    <div class="title">
+                        Life Is Beautiful
+                    </div>
+                   <p>Unlock to enjoy the view of her</p>
+                </div>
+            </div>
+            <div class="carousel-item" style="background: url('./images/image-3.jpg') no-repeat center center/ cover;">
+                <div class="contentOverSlider text-center">
+                    <div class="title">
+                        Life Is Beautiful
+                    </div>
+                   <p>Unlock to enjoy the view of her</p>
+                </div>
+            </div>
+            <div class="carousel-item" style="background: url('./images/image-4.jpg') no-repeat center center/ cover;"> 
+                <div class="contentOverSlider text-center">
+                    <div class="title">
+                        Life Is Beautiful
+                    </div>
+                   <p>Unlock to enjoy the view of her</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END OF GENERIC CAROUSEL  -->
+
+    <!-- START OF BOOKING FORM  -->
+    <div class="bookingForm d-none d-lg-block">
+        <form class="row g-3">
+            <div class="col-12">
+              <label for="check-in" class="form-label">CHECK IN</label>
+              <input type="date" class="form-control" id="check-in">
+            </div>
+            <div class="col-12">
+                <label for="check-out" class="form-label">CHECK OUT</label>
+                <input type="date" class="form-control" id="check-out">
+            </div>
+            <div class="col-6">
+                <label for="adults" class="form-label">ADULTS</label>
+                <select id="adults" class="form-select form-control">
+                  <option selected>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                </select>
+            </div>
+            <div class="col-6">
+                <label for="child" class="form-label">CHILDREN</label>
+                <select id="child" class="form-select form-control">
+                    <option selected>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                </select>
+            </div>
+            <div class="col-12 mt-xl-4 text-center">
+              <button type="submit" class="btn">BOOK NOW</button>
+            </div>
+        </form>
+    </div>
+    <!-- END OF BOOKING FORM  -->
+
+    <!--START OF WELCOME SECTION  -->
+    <div class="twoImagesSection greyBg paddingBG">
+        <div class="col-10 m-auto">
+            <div class="row g-0 align-items-center pt-5 pt-lg-0">
+                <div class="col-lg-6 mb-3 mb-lg-0 pe-0 pe-lg-5">
+                    <div class="textCol">
+                        <h1>
+                            <span>ABOUT US</span>
+                            Welcome to<br> RevitUp Approach
+                        </h1>
+                        <p class="my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea cumque tempora enim repellat possimus quasi veritatis id praesentium, iure totam sunt debitis distinctio quaerat nihil atque sed architecto dolorum rem.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea cumque tempora enim repellat possimus quasi veritatis id praesentium, iure totam sunt debitis distinctio quaerat nihil atque sed architecto dolorum rem.</p>
+                        <div class="button">
+                            <a href="#" class="cta">
+                                <span>Learn more</span>
+                                <i class="bi bi-arrow-right ms-1"></i>
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="imageCol text-center">
+                        <img src="./images/image-1.jpg" alt="" class="img-fluid me-2" data-aos="fade-in"
+                        data-aos-duration="2500">
+                        <img src="./images/image-2.jpg" alt="" class="img-fluid" data-aos="fade-in"
+                        data-aos-duration="2500" data-aos-delay="500">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--END OF WELCOME SECTION  -->
+
+    <!--START OF ACCOMMODATION  -->
+    <div class="mt-5 twoColSection">
+        <div class="col-10 m-auto text-center">
+            <h2 class="h1">
+                <span>accommodation</span>
+                rooms & suites
+            </h2>
+        </div>
+        <div class="owl-carousel twoColCarousel mt-5">
+            <div class="item">
+                <div class="row g-0 align-items-center bluebg">
+                    <div class="col-lg-6">
+                        <div class="imageCol" style="background: url('./images/room-3.jpg') no-repeat center center/ cover; height: 600px;"></div>
+                    </div>
+                    <div class="col-lg-6 px-4 px-sm-5 py-5 p-lg-5" data-aos="fade-in" data-aos-duration="2500">
+                        <div class="textCol text-white col-12 col-sm-10 col-xxl-8">
+                            <h2>Prenium king room</h2>
+                            <ul class="room-details list-unstyled mt-5">
+                                <li><i class="bi bi-check2-circle"></i>Size: 30ft</li>
+                                <li><i class="bi bi-check2-circle"></i>Capacity: Max person 5</li>
+                                <li><i class="bi bi-check2-circle"></i>View: Sew View</li>
+                            </ul>
+                            <div class="textCol-buttons d-md-flex align-items-center mt-5">
+                                <div class="button">
+                                    <a href="#" class="cta">
+                                        <span>Learn more</span>
+                                        <i class="bi bi-arrow-right ms-1"></i>
+                                    </a>
+                                </div>
+                                <a href="#" class="btn mt-4 mt-md-0 ms-xl-5 mt-1" aria-label="book link">BOOK NOW</a>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="row g-0 align-items-center bluebg">
+                    <div class="col-lg-6">
+                        <div class="imageCol" style="background: url('./images/room-1.jpg') no-repeat center center/ cover; height: 600px;"></div>
+                    </div>
+                    <div class="col-lg-6 px-4 px-sm-5 py-5 p-lg-5" data-aos="fade-in" data-aos-duration="2500">
+                        <div class="textCol text-white col-12 col-sm-10 col-xxl-8">
+                            <h2>Prenium king room</h2>
+                            <ul class="room-details list-unstyled mt-5">
+                                <li><i class="bi bi-check2-circle"></i>Size: 30ft</li>
+                                <li><i class="bi bi-check2-circle"></i>Capacity: Max person 5</li>
+                                <li><i class="bi bi-check2-circle"></i>View: Sew View</li>
+                            </ul>
+                            <div class="textCol-buttons d-md-flex align-items-center mt-5">
+                                <div class="button">
+                                    <a href="#" class="cta">
+                                        <span>Learn more</span>
+                                        <i class="bi bi-arrow-right ms-1"></i>
+                                    </a>
+                                </div>
+                                <a href="#" class="btn mt-4 mt-md-0 ms-xl-5 mt-1" aria-label="book link">BOOK NOW</a>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="row g-0 align-items-center bluebg">
+                    <div class="col-lg-6">
+                        <div class="imageCol" style="background: url('./images/room-2.jpg') no-repeat center center/ cover; height: 600px;"></div>
+                    </div>
+                    <div class="col-lg-6 px-4 px-sm-5 py-5 p-lg-5" data-aos="fade-in" data-aos-duration="2500">
+                        <div class="textCol text-white col-12 col-sm-10 col-xxl-8">
+                            <h2>Prenium king room</h2>
+                            <ul class="room-details list-unstyled mt-5">
+                                <li><i class="bi bi-check2-circle"></i>Size: 30ft</li>
+                                <li><i class="bi bi-check2-circle"></i>Capacity: Max person 5</li>
+                                <li><i class="bi bi-check2-circle"></i>View: Sew View</li>
+                            </ul>
+                            <div class="textCol-buttons d-md-flex align-items-center mt-5">
+                                <div class="button">
+                                    <a href="#" class="cta">
+                                        <span>Learn more</span>
+                                        <i class="bi bi-arrow-right ms-1"></i>
+                                    </a>
+                                </div>
+                                <a href="#" class="btn mt-4 mt-md-0 ms-xl-5 mt-1" aria-label="book link">BOOK NOW</a>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="row g-0 align-items-center bluebg">
+                    <div class="col-lg-6">
+                        <div class="imageCol" style="background: url('./images/room-3.jpg') no-repeat center center/ cover; height: 600px;"></div>
+                    </div>
+                    <div class="col-lg-6 px-4 px-sm-5 py-5 p-lg-5" data-aos="fade-in" data-aos-duration="2500">
+                        <div class="textCol text-white col-12 col-sm-10 col-xxl-8">
+                            <h2>Prenium king room</h2>
+                            <ul class="room-details list-unstyled mt-5">
+                                <li><i class="bi bi-check2-circle"></i>Size: 30ft</li>
+                                <li><i class="bi bi-check2-circle"></i>Capacity: Max person 5</li>
+                                <li><i class="bi bi-check2-circle"></i>View: Sew View</li>
+                            </ul>
+                            <div class="textCol-buttons d-md-flex align-items-center mt-5">
+                                <div class="button">
+                                    <a href="#" class="cta">
+                                        <span>Learn more</span>
+                                        <i class="bi bi-arrow-right ms-1"></i>
+                                    </a>
+                                </div>
+                                <a href="#" class="btn mt-4 mt-md-0 ms-xl-5 mt-1" aria-label="book link">BOOK NOW</a>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="row g-0 align-items-center bluebg">
+                    <div class="col-lg-6">
+                        <div class="imageCol" style="background: url('./images/room-1.jpg') no-repeat center center/ cover; height: 600px;"></div>
+                    </div>
+                    <div class="col-lg-6 px-4 px-sm-5 py-5 p-lg-5" data-aos="fade-in" data-aos-duration="2500">
+                        <div class="textCol text-white col-12 col-sm-10 col-xxl-8">
+                            <h2>Prenium king room</h2>
+                            <ul class="room-details list-unstyled mt-5">
+                                <li><i class="bi bi-check2-circle"></i>Size: 30ft</li>
+                                <li><i class="bi bi-check2-circle"></i>Capacity: Max person 5</li>
+                                <li><i class="bi bi-check2-circle"></i>View: Sew View</li>
+                            </ul>
+                            <div class="textCol-buttons d-md-flex align-items-center mt-5">
+                                <div class="button">
+                                    <a href="#" class="cta">
+                                        <span>Learn more</span>
+                                        <i class="bi bi-arrow-right ms-1"></i>
+                                    </a>
+                                </div>
+                                <a href="#" class="btn mt-4 mt-md-0 ms-xl-5 mt-1" aria-label="book link">BOOK NOW</a>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="row g-0 align-items-center bluebg">
+                    <div class="col-lg-6">
+                        <div class="imageCol" style="background: url('./images/room-2.jpg') no-repeat center center/ cover; height: 600px;"></div>
+                    </div>
+                    <div class="col-lg-6 px-4 px-sm-5 py-5 p-lg-5" data-aos="fade-in" data-aos-duration="2500">
+                        <div class="textCol text-white col-12 col-sm-10 col-xxl-8">
+                            <h2>Prenium king room</h2>
+                            <ul class="room-details list-unstyled mt-5">
+                                <li><i class="bi bi-check2-circle"></i>Size: 30ft</li>
+                                <li><i class="bi bi-check2-circle"></i>Capacity: Max person 5</li>
+                                <li><i class="bi bi-check2-circle"></i>View: Sew View</li>
+                            </ul>
+                            <div class="textCol-buttons d-md-flex align-items-center mt-5">
+                                <div class="button">
+                                    <a href="#" class="cta">
+                                        <span>Learn more</span>
+                                        <i class="bi bi-arrow-right ms-1"></i>
+                                    </a>
+                                </div>
+                                <a href="#" class="btn mt-4 mt-md-0 ms-xl-5 mt-1" aria-label="book link">BOOK NOW</a>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--END OF ACCOMMODATION  -->
+
+    <!--START OF WHY US  -->
+    <div class="whyUs greyBg paddingBG">
+        <div class="col-10 m-auto text-center">
+            <h2 class="h1">
+                <span>Why</span>
+                to choose us
+            </h2>
+            <div class="why-boxes d-flex flex-wrap justify-content-center justify-content-xl-between mt-5"  data-aos="fade-in" data-aos-duration="2000">
+                <div class="why-box">
+                    <i class="bi bi-star"></i>
+                    <span>EXTRA DISCOUNTs</span>
+                </div>
+                <div class="why-box">
+                    <i class="bi bi-star"></i>
+                    <span>free transfer</span>
+                </div>
+                <div class="why-box">
+                    <i class="bi bi-star"></i>
+                    <span>100% secure payments</span>
+                </div>
+                <div class="why-box">
+                    <i class="bi bi-star"></i>
+                    <span>exlusive offers</span>
+                </div>
+                <div class="why-box">
+                    <i class="bi bi-star"></i>
+                    <span>Full protection of personal data</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--END OF WHY US  -->
+
+    <!-- START OF RESTO HOME  -->
+    <div class="restoHome mt-5">
+        <div class="col-10 m-auto text-center">
+            <h2 class="h1">
+                <span>TASTE</span>
+                resto & bar
+            </h2>
+        </div>
+        <div class="row g-0 mt-5">
+            <div class="col-md-6">
+                <figure class="effect-lily">
+                    <img src="./images/resto-1.jpg" alt="img12"/>
+                    <figcaption data-aos="fade-in" data-aos-duration="2500">
+                       <h2>RESTO 1</h2>
+                       <div class="button mt-5 mb-3">
+                            <a href="#" class="cta">
+                                <span>Learn more</span>
+                                <i class="bi bi-arrow-right ms-1"></i>
+                            </a>
+                        </div>                
+                    </figcaption>			
+                </figure>
+            </div>
+            <div class="col-md-6">
+                <figure class="effect-lily">
+                    <img src="./images/resto-2.jpg" alt="img1"/>
+                    <figcaption data-aos="fade-in" data-aos-duration="2500">
+                        <h2>RESTO 2</h2>
+                        <div class="button mt-5 mb-3">
+                            <a href="#" class="cta">
+                                <span>Learn more</span>
+                                <i class="bi bi-arrow-right ms-1"></i>
+                            </a>
+                        </div>
+                    </figcaption>			
+                </figure>
+            </div>
+            <div class="col-md-6">
+                <figure class="effect-lily">
+                    <img src="./images/bar-1.jpg" alt="img12"/>
+                    <figcaption data-aos="fade-in" data-aos-duration="2500">
+                        <h2>BAR 1</h2>
+                        <div class="button mt-5 mb-3">
+                            <a href="#" class="cta">
+                                <span>Learn more</span>
+                                <i class="bi bi-arrow-right ms-1"></i>
+                            </a>
+                        </div>
+                    </figcaption>			
+                </figure>
+            </div>
+            <div class="col-md-6">
+                <figure class="effect-lily">
+                    <img src="./images/bar-2.jpg" alt="img1"/>
+                    <figcaption data-aos="fade-in" data-aos-duration="2500">
+                        <h2>BAR 2</h2>
+                        <div class="button mt-5 mb-3">
+                            <a href="#" class="cta">
+                                <span>Learn more</span>
+                                <i class="bi bi-arrow-right ms-1"></i>
+                            </a>
+                        </div>
+                    </figcaption>			
+                </figure>
+            </div>
+        </div>
+    </div>
+    <!-- END OF RESTO HOME  -->
+
+    <!-- START OF EXPERIENCES HOME  -->
+    <div class="experiencesHome greyBg paddingBG">
+        <div class="col-10 m-auto text-center">
+            <div class="h1">
+                <span>EXPLORE</span>
+                EXPERIENCES
+            </div>
+        </div>
+        <div class="owl-carousel experiencesCarousel mt-5">
+            <div class="item">
+                <div class="single-project-slide bg-img" style="background-image:url('./images/image-1.jpg')">
+                    <div class="project-content" data-aos="fade-in" data-aos-duration="2500">
+                        <div class="text">
+                            <span>Experience</span>
+                            <h2>Racing Bike</h2>
+                        </div>
+                    </div>
+                    <div class="hover-effects">
+                        <div class="text">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum ab porro quia a nihil soluta praesentium fugiat deleniti sequi quasi.</p>
+                        </div>
+                        <div class="button">
+                            <a href="#" class="cta">
+                                <span>Learn more</span>
+                                <i class="bi bi-arrow-right ms-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="single-project-slide bg-img" style="background-image:url('./images/image-2.jpg')">
+                    <div class="project-content" data-aos="fade-in" data-aos-duration="2500">
+                        <div class="text">
+                            <span>Experience</span>
+                            <h2>Racing Bike</h2>
+                        </div>
+                    </div>
+                    <div class="hover-effects">
+                        <div class="text">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum ab porro quia a nihil soluta praesentium fugiat deleniti sequi quasi.</p>
+                        </div>
+                        <div class="button">
+                            <a href="#" class="cta">
+                                <span>Learn more</span>
+                                <i class="bi bi-arrow-right ms-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="single-project-slide bg-img" style="background-image:url('./images/image-3.jpg')">
+                    <div class="project-content" data-aos="fade-in" data-aos-duration="2500">
+                        <div class="text">
+                            <span>Experience</span>
+                            <h2>Racing Bike</h2>
+                        </div>
+                    </div>
+                    <div class="hover-effects">
+                        <div class="text">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum ab porro quia a nihil soluta praesentium fugiat deleniti sequi quasi.</p>
+                        </div>
+                        <div class="button">
+                            <a href="#" class="cta">
+                                <span>Learn more</span>
+                                <i class="bi bi-arrow-right ms-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="single-project-slide bg-img" style="background-image:url('./images/image-4.jpg')">
+                    <div class="project-content" data-aos="fade-in" data-aos-duration="2500">
+                        <div class="text">
+                            <span>Experience</span>
+                            <h2>Racing Bike</h2>
+                        </div>
+                    </div>
+                    <div class="hover-effects">
+                        <div class="text">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum ab porro quia a nihil soluta praesentium fugiat deleniti sequi quasi.</p>
+                        </div>
+                        <div class="button">
+                            <a href="#" class="cta">
+                                <span>Learn more</span>
+                                <i class="bi bi-arrow-right ms-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="single-project-slide bg-img" style="background-image:url('./images/image-5.jpg')">
+                    <div class="project-content" data-aos="fade-in" data-aos-duration="2500">
+                        <div class="text">
+                            <span>Experience</span>
+                            <h2>Racing Bike</h2>
+                        </div>
+                    </div>
+                    <div class="hover-effects">
+                        <div class="text">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum ab porro quia a nihil soluta praesentium fugiat deleniti sequi quasi.</p>
+                        </div>
+                        <div class="button">
+                            <a href="#" class="cta">
+                                <span>Learn more</span>
+                                <i class="bi bi-arrow-right ms-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END OF EXPERIENCES HOME  -->
+
+    <!--START OF LOCATION  -->
+    <div class="mt-5 twoColSection">
+        <div class="col-10 m-auto text-center">
+            <h2 class="h1">
+                <span>see & explore</span>
+                LOCATION
+            </h2>
+        </div>
+        <div class="owl-carousel twoColCarousel revert mt-5">
+            <div class="item">
+                <div class="row g-0 align-items-center bluebg">
+                    <div class="col-lg-6 order-1 order-lg-2">
+                        <div class="imageCol" style="background: url('./images/image-1.jpg') no-repeat center center/ cover; height: 600px;"></div>
+                    </div>
+                    <div class="col-lg-6 px-4 px-sm-5 py-5 p-lg-5 order-2 order-lg-1" data-aos="fade-in" data-aos-duration="2500">
+                        <div class="textCol text-white col-12 col-sm-10 col-xxl-8">
+                            <h2>Chania</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem voluptatem culpa qui reprehenderit numquam similique, veritatis veniam delectus iusto architecto recusandae nesciunt rem nobis, quasi dicta, itaque quos ut quibusdam!</p>
+                            <div class="textCol-buttons d-md-flex align-items-center mt-5">
+                                <div class="button">
+                                    <a href="#" class="cta">
+                                        <span>Learn more</span>
+                                        <i class="bi bi-arrow-right ms-1"></i>
+                                    </a>
+                                </div>                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="row g-0 align-items-center bluebg">
+                    <div class="col-lg-6 order-1 order-lg-2">
+                        <div class="imageCol" style="background: url('./images/image-2.jpg') no-repeat center center/ cover; height: 600px;"></div>
+                    </div>
+                    <div class="col-lg-6 px-4 px-sm-5 py-5 p-lg-5 order-2 order-lg-1" data-aos="fade-in" data-aos-duration="2500">
+                        <div class="textCol text-white col-12 col-sm-10 col-xxl-8">
+                            <h2>Chania</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem voluptatem culpa qui reprehenderit numquam similique, veritatis veniam delectus iusto architecto recusandae nesciunt rem nobis, quasi dicta, itaque quos ut quibusdam!</p>
+                            <div class="textCol-buttons d-md-flex align-items-center mt-5">
+                                <div class="button">
+                                    <a href="#" class="cta">
+                                        <span>Learn more</span>
+                                        <i class="bi bi-arrow-right ms-1"></i>
+                                    </a>
+                                </div>                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="row g-0 align-items-center bluebg">
+                    <div class="col-lg-6 order-1 order-lg-2">
+                        <div class="imageCol" style="background: url('./images/image-3.jpg') no-repeat center center/ cover; height: 600px;"></div>
+                    </div>
+                    <div class="col-lg-6 px-4 px-sm-5 py-5 p-lg-5 order-2 order-lg-1" data-aos="fade-in" data-aos-duration="2500">
+                        <div class="textCol text-white col-12 col-sm-10 col-xxl-8">
+                            <h2>Chania</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem voluptatem culpa qui reprehenderit numquam similique, veritatis veniam delectus iusto architecto recusandae nesciunt rem nobis, quasi dicta, itaque quos ut quibusdam!</p>
+                            <div class="textCol-buttons d-md-flex align-items-center mt-5">
+                                <div class="button">
+                                    <a href="#" class="cta">
+                                        <span>Learn more</span>
+                                        <i class="bi bi-arrow-right ms-1"></i>
+                                    </a>
+                                </div>                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="row g-0 align-items-center bluebg">
+                    <div class="col-lg-6 order-1 order-lg-2">
+                        <div class="imageCol" style="background: url('./images/image-4.jpg') no-repeat center center/ cover; height: 600px;"></div>
+                    </div>
+                    <div class="col-lg-6 px-4 px-sm-5 py-5 p-lg-5 order-2 order-lg-1" data-aos="fade-in" data-aos-duration="2500">
+                        <div class="textCol text-white col-12 col-sm-10 col-xxl-8">
+                            <h2>Chania</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem voluptatem culpa qui reprehenderit numquam similique, veritatis veniam delectus iusto architecto recusandae nesciunt rem nobis, quasi dicta, itaque quos ut quibusdam!</p>
+                            <div class="textCol-buttons d-md-flex align-items-center mt-5">
+                                <div class="button">
+                                    <a href="#" class="cta">
+                                        <span>Learn more</span>
+                                        <i class="bi bi-arrow-right ms-1"></i>
+                                    </a>
+                                </div>                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <!--END OF LOCATION  -->
+
+    <!-- START OF TESTIMONIALS  -->
+    <div class="paddingBG">
+        <div class="col-10 m-auto text-center">
+            <h2 class="h1">
+                <span>WHAT THEY SAY</span>
+                TESTIMONIALS
+            </h2>
+        </div>
+        <div class="col-12 col-lg-10 col-xxl-8 m-auto" data-aos="fade-in" data-aos-duration="2500">
+            <div id="customers-testimonials" class="owl-carousel">
+                <div class="item">
+                    <div class="testimonial-box">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi illo aliquid a ipsam quis qui quaerat earum, explicabo rerum culpa esse non asperiores saepe consectetur dicta consequuntur? Vel, quo quam!</p>
+                    </div>
+                    <div class="testimonial-brand">Booking</div>
+                </div>
+                <div class="item">
+                    <div class="testimonial-box">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi illo aliquid a ipsam quis qui quaerat earum, explicabo rerum culpa esse non asperiores saepe consectetur dicta consequuntur? Vel, quo quam!</p>
+                    </div>
+                    <div class="testimonial-brand">Tripadvisor</div>
+                </div>
+                <div class="item">
+                    <div class="testimonial-box">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi illo aliquid a ipsam quis qui quaerat earum, explicabo rerum culpa esse non asperiores saepe consectetur dicta consequuntur? Vel, quo quam!</p>
+                    </div>
+                    <div class="testimonial-brand">Expedia</div>
+                </div>
+                <div class="item">
+                    <div class="testimonial-box">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi illo aliquid a ipsam quis qui quaerat earum, explicabo rerum culpa esse non asperiores saepe consectetur dicta consequuntur? Vel, quo quam!</p>
+                    </div>
+                    <div class="testimonial-brand">Booking</div>
+                </div>
+                <div class="item">
+                    <div class="testimonial-box">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi illo aliquid a ipsam quis qui quaerat earum, explicabo rerum culpa esse non asperiores saepe consectetur dicta consequuntur? Vel, quo quam!</p>
+                    </div>
+                    <div class="testimonial-brand">Booking</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- START OF TESTIMONIALS  -->
+
+    <!-- START OF AWARDS  -->
+    <div class="greyBg paddingBG">
+        <div class="col-10 m-auto text-center">
+            <h2 class="h1">
+                <span>view</span>
+                awards
+            </h2>
+        </div>
+        <div class="col-10 col-xxl-8 m-auto mt-5" data-aos="fade-in" data-aos-duration="2500">
+            <div class="awards-row d-flex flex-wrap align-items-center justify-content-center">
+                <a href="#" target="_blank" aria-label="award"><img src="./images/holidaycheck.jpg" alt=""></a>
+                <a href="#" target="_blank" aria-label="award"><img src="./images/greenkey_logo_2012_1.jpg" alt=""></a>
+                <a href="#" target="_blank" aria-label="award"><img src="./images/holidaycheck.jpg" alt=""></a>
+                <a href="#" target="_blank" aria-label="award"><img src="./images/greenkey_logo_2012_1.jpg" alt=""></a>
+                <a href="#" target="_blank" aria-label="award"><img src="./images/holidaycheck.jpg" alt=""></a>
+                <a href="#" target="_blank" aria-label="award"><img src="./images/greenkey_logo_2012_1.jpg" alt=""></a>
+                <a href="#" target="_blank" aria-label="award"><img src="./images/holidaycheck.jpg" alt=""></a>
+                <a href="#" target="_blank" aria-label="award"><img src="./images/greenkey_logo_2012_1.jpg" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <!-- END OF AWARDS  -->
+
+    <!-- START OF INSTAGRAM FEED  -->
+    <div class="mt-5">
+        <div class="col-10 m-auto text-center">
+            <h2 class="h1">
+                <span>Follow Us on Istagram</span>
+                #RevitUp.Direct
+            </h2>
+        </div>
+        <div class="instragram_area mt-5" data-aos="fade-in" data-aos-duration="2500">
+            <div class="single_instagram">
+                <img src="./images/image-1.jpg" alt="">
+                <div class="ovrelay">
+                    <a href="#">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="single_instagram">
+                <img src="./images/image-2.jpg" alt="">
+                <div class="ovrelay">
+                    <a href="#">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="single_instagram">
+                <img src="./images/image-3.jpg" alt="">
+                <div class="ovrelay">
+                    <a href="#">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="single_instagram">
+                <img src="./images/image-4.jpg" alt="">
+                <div class="ovrelay">
+                    <a href="#">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="single_instagram">
+                <img src="./images/image-5.jpg" alt="">
+                <div class="ovrelay">
+                    <a href="#">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END OF INSTAGRAM FEED  -->
+
+    <!-- START OF BOTTOM MENU  -->
+    <div class="bottomMenu bluebg py-3">
+        <div class="col-10 m-auto text-center">
+            <ul class="d-inline-flex flex-wrap justify-content-center list-unstyled">
+                <li><a href="#" aria-label="bottom-link" class="underlineBtn">ROOMS & SUITES</a></li>
+                <li><a href="#" aria-label="bottom-link" class="underlineBtn">CONTACT US</a></li>
+                <li><a href="#" aria-label="bottom-link" class="underlineBtn">CAREER</a></li>
+                <li><a href="#" aria-label="bottom-link" class="underlineBtn">MAKE A REQUEST</a></li>
+                <li><a href="#" aria-label="bottom-link" class="underlineBtn">COVID-19</a></li>
+                <li><a href="#" aria-label="bottom-link" class="underlineBtn">PRIVACY POLICY</a></li>
+            </ul>
+        </div>  
+    </div>
+    <!-- END OF BOTTOM MENU  -->
+
+    <!-- START OF FOOTER  -->
+    <footer class="bluebg pt-5 text-white">
+        <div class="col-10 m-auto">
+            <div class="row g-0">
+                <div class="col-lg-4 pe-5 mb-5 mb-lg-0">
+                    <div class="contact-details">
+                        <h2>Find Us</h2>
+                        <ul class="list-unstyled">
+                            <li><a href="#" aria-label="link"><i class="bi bi-telephone me-2"></i> +30 6946492914</a></li>
+                            <li><a href="#" aria-label="link"><i class="bi bi-envelope me-2"></i>hello@revitup.direct</a></li>
+                            <li><a href="#" aria-label="link"><i class="bi bi-geo-alt me-2"></i>Κωνσταντινουπόλεως 12, Ηράκλειο 713 04</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <div class="social-details">
+                        <h2>Follow Us</h2>
+                        <ul class="list-unstyled d-inline-flex">
+                            <li><a href="#" aria-label="facebook" target="_blank"><i class="bi bi-facebook"></i></a></li>
+                            <li><a href="#" aria-label="instagram" target="_blank"><i class="bi bi-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="newsletterForm">
+                        <h2>Newsletter</h2>
+                        <p>Subscribe to learn anything first.</p>
+                        <form class="row g-3 mt-3">
+                            <div class="col-12 col-md-8 col-lg-12 col-xxl-8">
+                                <label for="newsletterEmail" class="form-label visually-hidden">Email</label>
+                                <input type="email" class="form-control" id="newsletterEmail" placeholder="Email">
+                            </div>
+                            <div class="col-4 col-md-4 col-lg-4 col-xxl-4">
+                                <button type="submit" class="btn text-white">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright p-3 mt-5">
+            <p><a href="#" aria-label="cookies">Cookie Settings</a> | All rights reserved | Web Development by <a href="https://www.eyewide.gr/" target="_blank" aria-label="eyewide">Eyewide - Hotel Digital Marketing</a> & Hotel Sales by <a href="https://www.revitup.direct/" target="_blank" aria-label="revitup">RevitUp.direct</a></p>
+        </div>
+    </footer>
+    <!-- END OF FOOTER  -->
+
+    <!-- CDN SCRIPTS -->
+    <!-- JQUERY CDN  -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- JQUERY CDN  -->
+
+    <!-- BOOTSTRAP CDN  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP CDN  -->
+
+    <!-- AOS JS  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- AOS JS  -->
+
+    <!-- OWL CAROUSEL  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- OWL CAROUSEL  -->
+
+    <!-- MY SCRIPTS  -->
+    <script src="./scripts/scripts.js"></script>
+    <!-- MY SCRIPTS  -->
+</body>
+</html>
