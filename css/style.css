@@ -656,6 +656,15 @@ header.active .mobile-menu .menu-open i {
   margin-top: 70px;
 }
 
+.twoImagesSection.revert img:first-child {
+  margin-top: 0px;
+}
+
+.twoImagesSection.revert img:last-child {
+  margin-top: 70px;
+}
+
+
 @media screen and (max-width: 1399px) {
   .twoImagesSection img {
     height: 400px;
@@ -1330,10 +1339,17 @@ input[type="email"]::-webkit-input-placeholder {
   letter-spacing: 2px;
   color: var(--mywhite);
 }
+
+@media screen and (max-width: 767px) {
+  .map-link {
+    height: 350px !important;
+  }
+}
 /* CONTACT PAGE  */
 
 /* GALLERY PAGE  */
 .filter-button {
+  display: inline-block;
   font-weight: 500;
   letter-spacing: 1.5px;
   font-size: 18px;
