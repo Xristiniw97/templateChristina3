@@ -1433,3 +1433,82 @@ input[type="email"]::-webkit-input-placeholder {
   }
 }
 /* SUBMENU  */
+
+
+/**LANGUAGES**/
+.languagesDrop .dropdown-toggle {
+  color: #ffffff;
+  border: none;
+  background: transparent;
+  font-weight: 400;
+  letter-spacing: 2px;
+  transition: .3s linear;
+}
+
+.languagesDrop .dropdown-toggle::after {
+  margin-left: 0;
+}
+
+.languagesDrop a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.languagesDrop .dropdown-menu {
+  min-width: 40px;
+  border-radius: 0;
+  background: transparent;
+  border: none;
+  left: 0px !important;
+  top: 22px !important;
+}
+
+.languagesDrop .dropdown-item {
+  display: block;
+  padding: 0px;
+  text-align: center;
+  padding: 0 5px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 14px;
+  color: var(--myblack);
+}
+
+.languagesDrop .dropdown-item:hover {
+  background: none;
+  color: #000000;
+}
+
+.dropdown.active .dropdown-menu,
+.dropdown:hover .dropdown-menu {
+  position: absolute !important;
+  display: block;
+  border: 0px solid rgba(0, 0, 0, 0.15);
+  background-color: #ffffff;
+  border-radius: 0;
+  padding: 8px 10px;
+  font-size: inherit;
+  z-index: 1030;
+  left: 20px;
+  top: calc( 100% - 2px);
+  margin: 0;
+  line-height: 1.4;
+}
+
+.dropdown .dropdown-menu li {
+  display: block;
+  padding: 10px 5px 0px 5px;
+}
+
+.dropdown .dropdown-menu a.active,
+.dropdown .dropdown-menu a:hover {
+  color: var(--myred);
+}
+
+@media screen and (max-width: 1199px) {
+  .languagesDrop .dropdown-toggle {
+    font-size: 16px;
+  }
+}
+
+/**END OF LANGUAGES**/
